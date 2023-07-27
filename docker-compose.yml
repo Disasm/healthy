@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  health-check:
+    image: healthy
+    init: true
+    ports:
+      - "8000:8000"
