@@ -4,6 +4,5 @@ services:
     restart: unless-stopped
     image: healthy
     build: .
-    init: true
     ports:
       - "8000:8000"
