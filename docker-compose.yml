@@ -1,6 +1,7 @@
 version: '3.7'
 services:
   health-check:
+    restart: unless-stopped
     image: healthy
     build: .
     init: true
